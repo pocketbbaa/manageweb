@@ -7,7 +7,7 @@
 <head>
 
     <meta charset="utf-8"/>
-    <title>航协</title>
+    <title>运动成都-竞赛报名站点</title>
     <meta name="description" content="Crystal Theme"/>
     <meta name="author" content="Arlind Nushi and Arianit Selimaj"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -46,8 +46,7 @@
             <div class="ten columns">
 
                 <ul class="top_menu" data-title=":: Secondary Top Menu ::">
-                    <li><a href="#rss">运动成都</a></li>
-                    <li><a href="#archives">竞赛报名网</a></li>
+                    <li><a href="#rss">成都市科技体育竞赛系列竞赛活动</a></li>
                 </ul>
 
             </div>
@@ -68,8 +67,9 @@
 
 
                 <div class="site_logo">
-                    <a href="index.html">
-                        <img src="images/crystal.png" alt="crystal" align="bottom"/>
+                    <a href="index.jsp">
+                        <img src="images/game_icon/123.jpg" style="width: 80px;height: 80px;" alt="竞赛报名网"
+                             align="bottom"/>
                     </a>
 
                     <span class="site_slogan">纸飞机比赛</span>
@@ -122,12 +122,9 @@
     <div class="twelve columns">
 
         <div class="cblock empty blog_post">
-
-
             <div class="blogpost_image">
-
-                <a href="images/blogpost_img_01.png" class="zoom" title="A little description goes here...">
-                    <img src="images/blogpost_img_01.png" alt="Sample Image"/>
+                <a href="images/game_icon/123.jpg" class="" title="A little description goes here...">
+                    <img src="images/game_icon/123.jpg" alt="Sample Image"/>
                 </a>
             </div>
 

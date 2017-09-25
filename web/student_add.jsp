@@ -8,7 +8,7 @@
 
 
     <meta charset="utf-8"/>
-    <title>航协</title>
+    <title>运动成都-竞赛报名站点</title>
     <meta name="description" content="Crystal Theme"/>
     <meta name="author" content="Arlind Nushi and Arianit Selimaj"/>
 
@@ -57,8 +57,7 @@
             <div class="ten columns">
 
                 <ul class="top_menu" data-title=":: Secondary Top Menu ::">
-                    <li><a href="#rss">成都航模运动协会</a></li>
-                    <li><a href="#archives">定制赛事</a></li>
+                    <li><a href="#rss">成都市科技体育竞赛系列竞赛活动</a></li>
                 </ul>
 
             </div>
@@ -81,8 +80,9 @@
 
 
                 <div class="site_logo">
-                    <a href="index.html">
-                        <img src="images/crystal.png" alt="竞赛报名网" align="bottom"/>
+                    <a href="index.jsp">
+                        <img src="images/game_icon/123.jpg" style="width: 80px;height: 80px;" alt="竞赛报名网"
+                             align="bottom"/>
                     </a>
 
                     <span class="site_slogan">成都市航空模型运动协会办公室</span>
@@ -139,78 +139,46 @@
 </div>
 <div class="content white_block tight">
 
-    <div class="container">
+    <div class="container" style="height: 50%">
 
         <div class="sixteen columns">
 
-            <p>
-                <strong>选择比赛：</strong>
-            </p>
+            <h3><strong>参赛队员信息：</strong></h3>
 
-            <div style="display: inline-block">
-                <select>
-                    <option>-选择比赛项目-</option>
+            <div style="display: inline-block;margin-left: 65%">
+                <a href="#"><h3><strong><span style="color: #33afdd">点我下载报名表</span></strong></h3></a>
+            </div>
+            <div style="display: inline-block;margin-left: 50px;">
+                <a href="#"><h3><strong><span style="color: green">点我导入名单</span></strong></h3></a>
+            </div>
+            <div style="margin-top: 50px;">
+                <input type="text" style="width: 159px;" name="subscribe_email"
+                       class="subscribe_email"
+                       placeholder="学生姓名" value=""/>
+            </div>
+            <div style="display: inline-block;margin-left: 10px;">
+                <select style="height: 38px;">
+                    <option>-选择比赛-</option>
                     <option>纸飞机</option>
                     <option>零速争霸</option>
                     <option>飞叠杯</option>
                 </select>
             </div>
-            <div style="display: inline-block">
-                <select>
+            <div style="display: inline-block;margin-left: 10px;">
+                <select style="height: 38px;">
+                    <option>-选择项目-</option>
+                    <option>直线距离赛</option>
+                </select>
+            </div>
+            <div style="display: inline-block;margin-left: 10px;">
+                <select style="height: 38px;">
                     <option>-选择组别-</option>
                     <option>小学组</option>
                     <option>中学组</option>
-                    <option>亲子组</option>
                 </select>
             </div>
             <br/>
-
-            <p>
-                <strong>参赛队员信息：</strong>
-            </p>
-            <div style="display: inline-block;margin-left: 10px;">
-                <input type="text" style="width: 159px;" name="subscribe_email"
-                       class="subscribe_email"
-                       placeholder="学生姓名" value=""/>
-            </div>
-            <div style="display: inline-block;margin-left: 10px;">
-                <input type="text" style="width: 159px;" name="subscribe_email"
-                       class="subscribe_email"
-                       placeholder="性别" value=""/>
-            </div>
-            <div style="display: inline-block;margin-left: 10px;">
-                <input type="text" style="width: 200px;" name="subscribe_email"
-                       class="subscribe_email"
-                       placeholder="身份证号" value=""/>
-            </div>
-            <div style="display: inline-block;margin-left: 10px;">
-                <input type="text" style="width: 200px;" name="subscribe_email"
-                       class="subscribe_email"
-                       placeholder="联系方式" value=""/>
-            </div>
-            <br/>
-            <div style="display: inline-block;margin-left: 10px;">
-                <input type="text" style="width: 159px;" name="subscribe_email"
-                       class="subscribe_email"
-                       placeholder="学生姓名" value=""/>
-            </div>
-            <div style="display: inline-block;margin-left: 10px;">
-                <input type="text" style="width: 159px;" name="subscribe_email"
-                       class="subscribe_email"
-                       placeholder="性别" value=""/>
-            </div>
-            <div style="display: inline-block;margin-left: 10px;">
-                <input type="text" style="width: 200px;" name="subscribe_email"
-                       class="subscribe_email"
-                       placeholder="身份证号" value=""/>
-            </div>
-            <div style="display: inline-block;margin-left: 10px;">
-                <input type="text" style="width: 200px;" name="subscribe_email"
-                       class="subscribe_email"
-                       placeholder="联系方式" value=""/>
-            </div>
-
-            <div class="subscribe_form clearfix" style="margin-left: 40%">
+            <div class="subscribe_form clearfix" style="margin-left: 40%;margin-top: 20px;">
                 <a href="student_list.jsp" type="submit" name="subscribe" class="subscribe"><span>确认提交</span></a>
             </div>
 

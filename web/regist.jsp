@@ -134,7 +134,7 @@
 
     <div class="sixteen columns">
 
-        <h2 class="title">请先登录</h2>
+        <h2 class="title">注册</h2>
     </div>
 
 </div>
@@ -145,27 +145,32 @@
         <div class="sixteen columns">
 
 
-            <div class="error_404">
+            <form method="post" name="subscribe_form" class="subscribe_form clearfix" action="/index.jsp"/>
 
-                <form method="post" name="subscribe_form" class="subscribe_form clearfix" action="/teacher_add.jsp"/>
-
-                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
-                       placeholder="手机号" value=""/>
-
-                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
-                       placeholder="密码" value=""/>
-
-
-                <button type="submit" name="subscribe" class="subscribe" style="margin-left: 40px;"><span>下一步</span></button>
-
-
-                </form>
-
-                <p class="droidsans"><a href="regist.jsp">没有账号点我注册！</a></p>
-
-
+            <div style="margin-left: 30%;margin-top: 50px;height: 60px;">
+                <select style="width: 45%">
+                    <option>个人参赛</option>
+                    <option>学校参赛</option>
+                </select>
             </div>
 
+            <div>
+                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
+                       placeholder="手机号" value=""/>
+            </div>
+            <div>
+                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
+                       placeholder="密码" value=""/>
+            </div>
+            <div>
+                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
+                       placeholder="学校唯一编码" value=""/>
+            </div>
+            <div style="margin-top: 100px;">
+                <button type="submit" name="subscribe" class="subscribe" style="margin-top: 50px;margin-left: -20%">
+                    <span>立即注册</span></button>
+            </div>
+            </form>
         </div>
 
     </div>

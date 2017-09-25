@@ -6,35 +6,24 @@
 <html>
 <head>
 
-
     <meta charset="utf-8"/>
     <title>运动成都-竞赛报名站点</title>
     <meta name="description" content="Crystal Theme"/>
     <meta name="author" content="Arlind Nushi and Arianit Selimaj"/>
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css"/>
     <link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
           type="text/css"/>
-
-
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/skeleton.css"/>
     <link rel="stylesheet" href="css/crystal.css"/>
     <link rel="stylesheet" href="css/layout.css"/>
-    <link rel="stylesheet" href="css/isotope.css"/>
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-
     <link rel="stylesheet" href="js/prettyphoto/css/prettyPhoto.css"/>
-
-
     <link rel="shortcut icon" href="images/favicon.ico"/>
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
@@ -62,11 +51,9 @@
 
             </div>
 
-            <div class="six columns">
-
-            </div>
-
         </div>
+
+
     </div>
 
     <div class="site_header_separator"></div>
@@ -85,7 +72,7 @@
                              align="bottom"/>
                     </a>
 
-                    <span class="site_slogan">成都市航空模型运动协会办公室</span>
+                    <span class="site_slogan">纸飞机比赛</span>
 
                 </div>
 
@@ -99,7 +86,7 @@
                     <li>
                         <a href="index.jsp">首页</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="game_info.jsp">赛事介绍</a>
                         <ul>
                             <li><a href="/game_info.jsp">纸飞机</a></li>
@@ -107,128 +94,99 @@
                             <li><a href="/game_info.jsp">四驱车</a></li>
                         </ul>
                     </li>
-                    <li class="active"><a href="login.jsp">报名通道</a></li>
+                    <li><a href="login.jsp">报名通道</a></li>
                     <li><a href="#">成绩展示</a></li>
                     <li><a href="#">关于我们</a></li>
+
+
                 </ul>
 
             </div>
 
         </div>
-
-
         <div class="container" id="mobile_menu">
             <div class="sixteen columns">
 
             </div>
         </div>
-
-
     </div>
-
-
 </div>
-
-
-<div class="container margin_top">
-
+<div class="content container">
     <div class="sixteen columns">
 
-        <h2 class="title">请先登录</h2>
+        <h2 class="title">文章详情</h2>
+
     </div>
 
-</div>
-<div class="content white_block tight">
 
-    <div class="container">
+    <div class="twelve columns">
 
-        <div class="sixteen columns">
+        <div class="cblock empty blog_post" style="height: 51%">
 
 
-            <div class="error_404">
-
-                <form method="post" name="subscribe_form" class="subscribe_form clearfix" action="/teacher_add.jsp"/>
-
-                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
-                       placeholder="手机号" value=""/>
-
-                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
-                       placeholder="密码" value=""/>
+            <h1 class="post_title">
+                <a href="#"> 纸飞机比赛介绍：</a>
+            </h1>
 
 
-                <button type="submit" name="subscribe" class="subscribe" style="margin-left: 40px;"><span>下一步</span></button>
-
-
-                </form>
-
-                <p class="droidsans"><a href="regist.jsp">没有账号点我注册！</a></p>
-
-
+            <div class="post_content">
+                <p>这个市什么章程：</p>
+                <p>wenzhasdasd asdasdasdasdasdasd：</p>
+                <p>asdadasdasdasdasdasddasdadasdasdadasd：</p>
+                <p>这个adasdasdasdasdasdasdasfafsdfzxcvzxcsdscascxasdcx</p>
+                <p>这个市什么asdasdasdasd</p>
+                <p>这个市什么章程asdasdas</p>
+                <p>这个市什么章asdasd</p>
+                <p>这个市什么章程asdasdasdasdasdasdasdasdas</p>
             </div>
 
         </div>
-
-    </div>
-
-    <div class="stripes"></div>
-
-
-</div>
-
-<div class="content container">
-
-
-    <div class="sixteen columns">
-        <h2 class="title">合作伙伴</h2>
-
-
-        <ul class="partners_carousel clearfix">
-            <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
-            <li><a href="#"><img src="images/partner_02.png" alt="partner_02"/></a></li>
-            <li><a href="#"><img src="images/partner_03.png" alt="partner_03"/></a></li>
-            <li><a href="#"><img src="images/partner_04.png" alt="partner_04"/></a></li>
-            <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
-        </ul>
-
     </div>
 
 
+    <div class="four columns iphone_nopadding">
+        <div class="module">
+            <div class="module_inner tabs">
+            </div>
+
+
+        </div>
+
+        <div class="module">
+            <div class="module_inner">
+                <h2 class="module_title">简介</h2>
+
+                <div class="module_content">
+
+                    <ul class="testimonials" data-autoswitch="1" data-timeout="3.5">
+                        <li data-author="Jeremy H.">
+                            是一种用纸做成的玩具飞机。它是航空类折纸手工中的最常见形式，属于折纸手工的一个分支。由于它是最容易掌握的一种折纸类型，所以深受初学者乃至高手的喜爱。
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 </div>
-
-
 <div class="site_footer">
     <div class="footer_bottom">
-
         <div class="container">
-
-
             <div class="two columns" id="back_to_top">
-
                 <a href="#" class="back_to_top">Back to Top</a>
-
-
             </div>
-
         </div>
-
-
     </div>
-
-
 </div>
 
 
 <script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.transit.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
 <script src="js/prettyphoto/jquery.prettyPhoto.js"></script>
-<script src="js/jquery.infinitescroll.js"></script>
 <script src="js/hover.zoom.js"></script>
-<script src="js/jquery.selectbox-0.1.3.min.js"></script>
 <script src="js/jquery.winres.js"></script>
-<script src="js/jquery.ancarousel.js"></script>
-<script src="js/jquery.featurestabs.js"></script>
-<script src="js/jquery.asyncslider.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/mobile-menu.js"></script>
 <script src="js/media-helper.js"></script>

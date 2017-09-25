@@ -8,7 +8,7 @@
 
 
     <meta charset="utf-8"/>
-    <title>航协</title>
+    <title>运动成都-竞赛报名站点</title>
     <meta name="description" content="Crystal Theme"/>
     <meta name="author" content="Arlind Nushi and Arianit Selimaj"/>
 
@@ -57,8 +57,7 @@
             <div class="ten columns">
 
                 <ul class="top_menu" data-title=":: Secondary Top Menu ::">
-                    <li><a href="#rss">成都航模运动协会</a></li>
-                    <li><a href="#archives">定制赛事</a></li>
+                    <li><a href="#rss">成都市科技体育竞赛系列竞赛活动</a></li>
                 </ul>
 
             </div>
@@ -82,7 +81,8 @@
 
                 <div class="site_logo">
                     <a href="index.jsp">
-                        <img src="images/crystal.png" alt="竞赛报名网" align="bottom"/>
+                        <img src="images/game_icon/123.jpg" style="width: 80px;height: 80px;" alt="竞赛报名网"
+                             align="bottom"/>
                     </a>
 
                     <span class="site_slogan">成都市航空模型运动协会办公室</span>
