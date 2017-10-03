@@ -53,12 +53,16 @@ public class IndexServiceImpl implements IndexService{
     /**
      * 获取以往比赛图片列表
      */
-    private void getGamePicUrlList(){}
+    private void getGamePicUrlList(){
 
+
+    }
 
     /**
      * 获取今年比赛赛事预告列表
      */
-    private void getGameTrailerList(){}
+    private void getGameTrailerList(){
+
+    }
 
 }
