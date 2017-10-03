@@ -110,8 +110,6 @@
                     </li>
                     <li>
                         <a href="#">赛事介绍</a>
-
-
                         <ul>
                             <li><a href="/game_info.jsp">纸飞机</a></li>
                             <li><a href="/game_info.jsp">飞叠杯</a></li>
