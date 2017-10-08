@@ -1,9 +1,9 @@
 package service;
 
-import dto.BannerGameProfileDTO;
+import vo.IndexVO;
 
 public interface IndexService {
 
-    BannerGameProfileDTO getBannerGameProfileDTOById(int id);
+    IndexVO getIndexVO(int id);
 
 }

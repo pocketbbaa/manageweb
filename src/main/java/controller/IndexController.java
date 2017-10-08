@@ -7,6 +7,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import service.IndexService;
+import vo.IndexVO;
 
 /**
  * 首页
@@ -20,10 +21,10 @@ public class IndexController {
     @RequestMapping(value = "/index")
     public ModelAndView index(ModelMap map) {
 
-        BannerGameProfileDTO bannerGameProfileDTO = indexService.getBannerGameProfileDTOById(1);
-        map.put("bannerGameProfileDTO", bannerGameProfileDTO);
+        IndexVO indexVO = indexService.getIndexVO(1);
+        map.put("indexVO", indexVO);
 
-        System.out.println("bannerGameProfileDTO:" + bannerGameProfileDTO);
+        System.out.println("indexVO:" + indexVO);
         return new ModelAndView("index", map);
     }
 
