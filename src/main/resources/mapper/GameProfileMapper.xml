@@ -6,7 +6,7 @@
 <mapper namespace="dao.GameProfileDao">
 
     <select id="getBannerGameProfileDTOById" parameterType="Integer" resultType="BannerGameProfileDTO">
-        SELECT * FROM `banner_game_ profile` WHERE id=#{id};
+        SELECT * FROM `banner_game_profile` WHERE id=#{id};
     </select>
 
 </mapper>

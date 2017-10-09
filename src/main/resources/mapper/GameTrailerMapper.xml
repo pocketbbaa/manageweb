@@ -6,7 +6,7 @@
 <mapper namespace="dao.GameTrailerDao">
 
     <select id="getGameTrailerList" resultType="GameTrailerDTO">
-        SELECT id,title,content,time FROM `game_ trailer`;
+        SELECT id,title,content,time FROM `game_trailer`;
     </select>
 
 </mapper>

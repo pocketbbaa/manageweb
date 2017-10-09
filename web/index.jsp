@@ -7,8 +7,6 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]--><html lang="en">
 <html>
 <head>
-
-
     <meta charset="utf-8"/>
     <title>运动成都-竞赛报名站点</title>
     <meta name="description" content="Crystal Theme"/>
@@ -32,6 +30,35 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
     <script src="js/jquery-1.7.2.min.js"></script>
 
+    <style type="text/css">
+        　ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        　.con {
+            width: 1105px;
+            height: 225px;
+            overflow: hidden;
+            border: 2px solid #666;
+            margin: 10px auto 0 auto;
+            padding: 5px 0 0 5px;
+        }
+
+        　.con ul li {
+            float: left;
+            margin: 0 5px 10px 0;
+        }
+
+        　.con ul li img {
+            display: block;
+            width: 209px;
+            height: 209px;
+            padding: 2px;
+            border: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body class="pat_01">
 <div class="site_header">
@@ -66,9 +93,7 @@
                         <span class="site_slogan">成都市无线电定向运动协会</span>
                     </div>
                 </div>
-
             </div>
-
             <div class="ten columns">
                 <ul class="main_menu" data-title=":: Crystal Main Nav ::">
                     <li class="active">
@@ -85,49 +110,27 @@
                     <li><a href="/login.jsp">报名通道</a></li>
                     <li><a href="#">成绩展示</a></li>
                     <li><a href="#">关于我们</a></li>
-
-
                 </ul>
-
             </div>
-
         </div>
-
-
         <div class="container" id="mobile_menu">
             <div class="sixteen columns">
-
             </div>
         </div>
-
-
     </div>
-
-
 </div>
 <div class="copyrights">Collect from <a href="http://www.cssmoban.com/">Website Template</a></div>
-
-
 <div class="asyncslider" data-autoswitch="5000">
-
     <div class="content container">
-
-
         <div id="browsersupport_slide" class="slide_item clearfix" data-current="true">
-
             <div class="eight columns">
-
                 <h1>全民科技体育比赛 <span>开始了！</span></h1>
                 <h2>“运动成都”成都市第四届全民健身运动会益智科技体育报名</h2>
-
                 <div class="text">“运动成都”定制赛事成都市益智体育运动会暨科技体育模型运动会，从2015年至今在成都市乒乓球学校体育馆内举行。
                 </div>
-
                 <a href="login.jsp" class="highlight_btn"><span>学校报名!</span></a>
                 <a href="login.jsp" class="highlight_btn"><span>社区报名!</span></a>
-
             </div>
-
             <div class="eight columns align_right">
                 <br/>
                 <img src="images/game_icon/123.jpg" style="width: 100px;" id="br_1" alt="slider_item_op"/>
@@ -140,7 +143,6 @@
     </div>
 </div>
 
-
 <div class="content white_block" style="width: 100%">
     <div class="container">
         <table class="features_tabs" border="0" cellpadding="0" cellspacing="0" style="width: 1000px;">
@@ -149,66 +151,127 @@
                 <td class="side_tab">
                     <div class="features_tab" data-id="servicesfeatures">
                         <div class="service_entry clearfix">
-
-
                             <div class="service_body" style="width: 300px;">
                                 <h2><a href="law_list.jsp">
                                     <div class="service_icon">
                                         <i class="cloud"></i>
                                     </div>
-                                    比赛规程</a></h2>
-                                <p><a href="#">规程1asdasasdasdd十大jsaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasdas萨达dsdsjaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasdas阿斯顿dsjaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasd萨达阿斯s顿aa.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasd啊实打实adjaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasd啊实打实adjaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
+                                    <strong>比赛规程</strong></a></h2>
+                                <table>
+                                    <tbody>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdadasdjassds...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdasasdasdd十大jsssas...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdadasdjassds...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdasasdasdd十大jsssas...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdadasdjassds...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdasasdasdd十大jsssas...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </td>
                 <td class="tabs_nav">
-
                     <a href="#" class="tab_menu_item active" rel="servicesfeatures">
                         比赛规程
                         <span>查看比赛规程</span>
                     </a>
-
                     <div class="tab_menu_item">
                         相关文章
                         <span>文章介绍</span>
                     </div>
-
                 </td>
-
-
                 <td class="side_tab right_tab">
                     <div class="features_tab" data-id="servicesfeatures">
                         <div class="service_entry clearfix">
-
-
                             <div class="service_body" style="width: 300px;">
-                                <h2><a href="articles_list.jsp"><div class="service_icon">
-                                    <i class="dir"></i>
-                                </div>相关文章</a></h2>
-                                <p><a href="#">规程1asdasasdasdd十大jsaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasdas萨达dsdsjaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasdas阿斯顿dsjaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasd萨达阿斯s顿aa.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasd啊实打实adjaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
-                                <p><a href="#">规程1asdaasd啊实打实adjaj.......
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017-08-09</a></p>
+                                <h2><a href="articles_list.jsp">
+                                    <div class="service_icon">
+                                        <i class="dir"></i>
+                                    </div>
+                                    <strong>相关文章</strong></a></h2>
+                                <table>
+                                    <tbody>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdadasdjassds...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdasasdasdd十大jsssas...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdadasdjassds...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdasasdasdd十大jsssas...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdadasdjassds...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    <tr style="height: 30px;">
+                                        <td><a href="#">规程1asdasasdasdd十大jsssas...</a></td>
+                                        <td>
+                                            <div style="width: 40px;"></div>
+                                        </td>
+                                        <td>2017-08-09</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -219,116 +282,60 @@
     </div>
 </div>
 
-
 <div class="content container">
     <div class="sixteen columns">
         <h2 class="title">以往比赛</h2>
     </div>
     <div class="portfolio_type_1">
-
-        <div class="columns portfolio_item" data-filter="design web">
-            <div class="item_block">
-                <div class="padding">
+        <marquee id="affiche" align="left" behavior="scroll" direction="left"
+                 hspace="50" vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()"
+                 onMouseOver="this.stop()">
+            <div class="columns portfolio_item" data-filter="design web">
+                <div class="item_block">
+                    <div class="padding">
                         <img src="images/game_icon/123.jpg" style="width: 200px;height: 200px;" alt="Some description"/>
-                    <h2 class="item_title">
-                        <a href="#">比赛1图片</a>
-                    </h2>
+                        <h2 class="item_title">
+                            <a href="#">比赛1图片</a>
+                        </h2>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="columns portfolio_item" data-filter="branding web">
-            <div class="item_block">
-                <div class="padding">
+            <div class="columns portfolio_item" data-filter="branding web">
+                <div class="item_block">
+                    <div class="padding">
                         <img src="images/game_icon/fei_1.jpeg" style="width: 200px;height: 200px;"
                              alt="Some description"/>
-                    <h2 class="item_title">
-                        <a href="#">比赛2图片</a>
-                    </h2>
+                        <h2 class="item_title">
+                            <a href="#">比赛2图片</a>
+                        </h2>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="columns portfolio_item" data-filter="design branding">
-            <div class="item_block">
-                <div class="padding">
+            <div class="columns portfolio_item" data-filter="design branding">
+                <div class="item_block">
+                    <div class="padding">
                         <img src="images/game_icon/si_1.jpeg" style="width: 200px;height: 200px;"
                              alt="Some description"/>
-                    <h2 class="item_title">
-                        <a href="#">比赛3图片</a>
-                    </h2>
+                        <h2 class="item_title">
+                            <a href="#">比赛3图片</a>
+                        </h2>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="columns portfolio_item" data-filter="design branding">
-            <div class="item_block">
-                <div class="padding">
+            <div class="columns portfolio_item" data-filter="design branding">
+                <div class="item_block">
+                    <div class="padding">
                         <img src="images/game_icon/timg.jpeg" style="width: 200px;height: 200px;"
                              alt="Some description"/>
-                    <h2 class="item_title">
-                        <a href="#">比赛4图片</a>
-                    </h2>
+                        <h2 class="item_title">
+                            <a href="#">比赛4图片</a>
+                        </h2>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="columns portfolio_item" data-filter="design web">
-            <div class="item_block">
-                <div class="padding">
-                    <img src="images/game_icon/123.jpg" style="width: 200px;height: 200px;" alt="Some description"/>
-                    <h2 class="item_title">
-                        <a href="#">比赛1图片</a>
-                    </h2>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="columns portfolio_item" data-filter="branding web">
-            <div class="item_block">
-                <div class="padding">
-                    <img src="images/game_icon/fei_1.jpeg" style="width: 200px;height: 200px;"
-                         alt="Some description"/>
-                    <h2 class="item_title">
-                        <a href="#">比赛2图片</a>
-                    </h2>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="columns portfolio_item" data-filter="design branding">
-            <div class="item_block">
-                <div class="padding">
-                    <img src="images/game_icon/si_1.jpeg" style="width: 200px;height: 200px;"
-                         alt="Some description"/>
-                    <h2 class="item_title">
-                        <a href="#">比赛3图片</a>
-                    </h2>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="columns portfolio_item" data-filter="design branding">
-            <div class="item_block">
-                <div class="padding">
-                    <img src="images/game_icon/timg.jpeg" style="width: 200px;height: 200px;"
-                         alt="Some description"/>
-                    <h2 class="item_title">
-                        <a href="#">比赛4图片</a>
-                    </h2>
-                </div>
-            </div>
-        </div>
-
+        </marquee>
     </div>
 </div>
-
 
 <div class="content white_block blog_and_subscribe">
     <div class="container">
@@ -348,8 +355,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="blog_entry clearfix">
                 <div class="post_date">
                     <span class="date">20</span>
@@ -363,6 +368,19 @@
                         进行比赛闭幕式，竞赛奖项颁发……
                     </div>
 
+                </div>
+            </div>
+            <div class="blog_entry clearfix">
+                <div class="post_date">
+                    <span class="date">20</span>
+                    <span>11月</span>
+                </div>
+                <div class="post_body">
+                    <h3><a href="blog-post.html">闭幕式</a></h3>
+                    <div class="categories"><a href="#">Inspiration</a></div>
+                    <div class="post_content">
+                        进行比赛闭幕式，竞赛奖项颁发……
+                    </div>
                 </div>
             </div>
             <div class="blog_entry clearfix">
@@ -399,51 +417,21 @@
 
                 </div>
             </div>
-            <div class="blog_entry clearfix">
-                <div class="post_date">
-                    <span class="date">20</span>
-                    <span>11月</span>
-                </div>
-
-
-                <div class="post_body">
-                    <h3><a href="blog-post.html">闭幕式</a></h3>
-                    <div class="categories"><a href="#">Inspiration</a></div>
-
-                    <div class="post_content">
-                        进行比赛闭幕式，竞赛奖项颁发……
-                    </div>
-
-                </div>
-            </div>
-
-
         </div>
 
         <div class="eight columns">
-
             <h2 class="title">参与比赛联系方式</h2>
-
             <p class="droidsans">电话 ： 137876554321</p>
             <p class="droidsans">联系人： hgfhgfhgfhg</p>
             <p class="droidsans">地址： 河北省多久恢复 赛</p>
         </div>
-
     </div>
-
     <div class="stripes"></div>
-
-
 </div>
 
-
 <div class="content container">
-
-
     <div class="sixteen columns">
         <h2 class="title">合作伙伴</h2>
-
-
         <ul class="partners_carousel clearfix">
             <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
             <li><a href="#"><img src="images/partner_02.png" alt="partner_02"/></a></li>
@@ -455,34 +443,18 @@
             <li><a href="#"><img src="images/partner_02.png" alt="partner_02"/></a></li>
             <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
             <li><a href="#"><img src="images/partner_04.png" alt="partner_04"/></a></li>
-
         </ul>
-
     </div>
-
-
 </div>
-
 
 <div class="site_footer">
     <div class="footer_bottom">
-
         <div class="container">
-
-
             <div class="two columns" id="back_to_top">
-
                 <a href="#" class="back_to_top">Back to Top</a>
-
-
             </div>
-
         </div>
-
-
     </div>
-
-
 </div>
 
 
@@ -503,7 +475,33 @@
 <script src="js/tabs.js"></script>
 
 
-<%--<script src="js/style-switcher.js"></script>--%>
+<script src="js/style-switcher.js">
+    $(document).ready(function () {
+        new ZouMa().Start();
+    });
+    function ZouMa() {
+        this.maxLength = 3; //最低显示数
+        this.Timer = 2000;//计时器间隔时间
+        this.Ul = $(".box ul");
+        var handId;//计时器id
+        var self = this;
+        this.Start = function () {
+            if (self.Ul.children().length < this.maxLength) {
+                self.Ul.append(self.Ul.children().clone());
+            }
+            handId = setInterval(self.Play, self.Timer);
+        }
+        this.Play = function () {
+            var img = self.Ul.children().eq(0);
+            var left = img.children().eq(0).width();
+            img.animate({"marginLeft": (-1 * left) + "px"}, 600, function () {
+                //appendTo函数是实现走马灯一直不间断播放的秘诀。
+                //目前网上看到的很多走马灯，走到最后一张的时候，会立马闪回第一张，而不是继续从后往前推进，即是没有明白该函数的作用的原因
+                $(this).css("margin-left", "auto").appendTo(self.Ul);
+            });
+        }
+    }
+</script>
 
 </body>
 </html>
