@@ -28,35 +28,9 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
-    <script src="js/jquery-1.7.2.min.js"></script>
-
-    <style type="text/css">
-        　ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        　.con {
-            width: 1105px;
-            height: 225px;
-            overflow: hidden;
-            border: 2px solid #666;
-            margin: 10px auto 0 auto;
-            padding: 5px 0 0 5px;
-        }
-
-        　.con ul li {
-            float: left;
-            margin: 0 5px 10px 0;
-        }
-
-        　.con ul li img {
-            display: block;
-            width: 209px;
-            height: 209px;
-            padding: 2px;
-            border: 1px solid #ccc;
+    <style>
+        .wrap {
+            padding: 10px;
         }
     </style>
 </head>
@@ -66,7 +40,7 @@
         <div class="container">
             <div class="ten columns">
                 <ul class="top_menu" data-title=":: Secondary Top Menu ::">
-                    <li><a href="#rss">成都市科技体育竞赛系列竞赛活动</a></li>
+                    <li><a href="#">成都市科技体育竞赛系列竞赛活动</a></li>
                 </ul>
             </div>
             <div class="six columns">
@@ -281,15 +255,11 @@
         </table>
     </div>
 </div>
-
 <div class="content container">
     <div class="sixteen columns">
         <h2 class="title">以往比赛</h2>
     </div>
     <div class="portfolio_type_1">
-        <marquee id="affiche" align="left" behavior="scroll" direction="left"
-                 hspace="50" vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()"
-                 onMouseOver="this.stop()">
             <div class="columns portfolio_item" data-filter="design web">
                 <div class="item_block">
                     <div class="padding">
@@ -333,7 +303,6 @@
                     </div>
                 </div>
             </div>
-        </marquee>
     </div>
 </div>
 
@@ -348,7 +317,7 @@
                     <span>11月</span>
                 </div>
                 <div class="post_body">
-                    <h3><a href="blog-post.html">开幕式</a></h3>
+                    <h3><a href="#">开幕式</a></h3>
                     <div class="categories"><a href="#">Inspiration</a></div>
                     <div class="post_content">
                         进行比赛开幕式，代表团进场签到……
@@ -361,7 +330,7 @@
                     <span>11月</span>
                 </div>
                 <div class="post_body">
-                    <h3><a href="blog-post.html">闭幕式</a></h3>
+                    <h3><a href="#">闭幕式</a></h3>
                     <div class="categories"><a href="#">Inspiration</a></div>
 
                     <div class="post_content">
@@ -376,7 +345,7 @@
                     <span>11月</span>
                 </div>
                 <div class="post_body">
-                    <h3><a href="blog-post.html">闭幕式</a></h3>
+                    <h3><a href="#">闭幕式</a></h3>
                     <div class="categories"><a href="#">Inspiration</a></div>
                     <div class="post_content">
                         进行比赛闭幕式，竞赛奖项颁发……
@@ -391,7 +360,7 @@
 
 
                 <div class="post_body">
-                    <h3><a href="blog-post.html">闭幕式</a></h3>
+                    <h3><a href="#">闭幕式</a></h3>
                     <div class="categories"><a href="#">Inspiration</a></div>
 
                     <div class="post_content">
@@ -408,7 +377,7 @@
 
 
                 <div class="post_body">
-                    <h3><a href="blog-post.html">闭幕式</a></h3>
+                    <h3><a href="#">闭幕式</a></h3>
                     <div class="categories"><a href="#">Inspiration</a></div>
 
                     <div class="post_content">
@@ -473,35 +442,6 @@
 <script src="js/mobile-menu.js"></script>
 <script src="js/media-helper.js"></script>
 <script src="js/tabs.js"></script>
-
-
-<script src="js/style-switcher.js">
-    $(document).ready(function () {
-        new ZouMa().Start();
-    });
-    function ZouMa() {
-        this.maxLength = 3; //最低显示数
-        this.Timer = 2000;//计时器间隔时间
-        this.Ul = $(".box ul");
-        var handId;//计时器id
-        var self = this;
-        this.Start = function () {
-            if (self.Ul.children().length < this.maxLength) {
-                self.Ul.append(self.Ul.children().clone());
-            }
-            handId = setInterval(self.Play, self.Timer);
-        }
-        this.Play = function () {
-            var img = self.Ul.children().eq(0);
-            var left = img.children().eq(0).width();
-            img.animate({"marginLeft": (-1 * left) + "px"}, 600, function () {
-                //appendTo函数是实现走马灯一直不间断播放的秘诀。
-                //目前网上看到的很多走马灯，走到最后一张的时候，会立马闪回第一张，而不是继续从后往前推进，即是没有明白该函数的作用的原因
-                $(this).css("margin-left", "auto").appendTo(self.Ul);
-            });
-        }
-    }
-</script>
-
+<script src="js/style-switcher.js"></script>
 </body>
 </html>
