@@ -287,53 +287,49 @@
         <h2 class="title">以往比赛</h2>
     </div>
     <div class="portfolio_type_1">
-        <marquee id="affiche" align="left" behavior="scroll" direction="left"
-                 hspace="50" vspace="20" loop="-1" scrollamount="10" scrolldelay="100" onMouseOut="this.start()"
-                 onMouseOver="this.stop()">
-            <div class="columns portfolio_item" data-filter="design web">
-                <div class="item_block">
-                    <div class="padding">
-                        <img src="images/game_icon/123.jpg" style="width: 200px;height: 200px;" alt="Some description"/>
-                        <h2 class="item_title">
-                            <a href="#">比赛1图片</a>
-                        </h2>
-                    </div>
+        <div class="columns portfolio_item" data-filter="design web">
+            <div class="item_block">
+                <div class="padding">
+                    <img src="images/game_icon/123.jpg" style="width: 200px;height: 200px;" alt="Some description"/>
+                    <h2 class="item_title">
+                        <a href="#">比赛1图片</a>
+                    </h2>
                 </div>
             </div>
-            <div class="columns portfolio_item" data-filter="branding web">
-                <div class="item_block">
-                    <div class="padding">
-                        <img src="images/game_icon/fei_1.jpeg" style="width: 200px;height: 200px;"
-                             alt="Some description"/>
-                        <h2 class="item_title">
-                            <a href="#">比赛2图片</a>
-                        </h2>
-                    </div>
+        </div>
+        <div class="columns portfolio_item" data-filter="branding web">
+            <div class="item_block">
+                <div class="padding">
+                    <img src="images/game_icon/fei_1.jpeg" style="width: 200px;height: 200px;"
+                         alt="Some description"/>
+                    <h2 class="item_title">
+                        <a href="#">比赛2图片</a>
+                    </h2>
                 </div>
             </div>
-            <div class="columns portfolio_item" data-filter="design branding">
-                <div class="item_block">
-                    <div class="padding">
-                        <img src="images/game_icon/si_1.jpeg" style="width: 200px;height: 200px;"
-                             alt="Some description"/>
-                        <h2 class="item_title">
-                            <a href="#">比赛3图片</a>
-                        </h2>
-                    </div>
+        </div>
+        <div class="columns portfolio_item" data-filter="design branding">
+            <div class="item_block">
+                <div class="padding">
+                    <img src="images/game_icon/si_1.jpeg" style="width: 200px;height: 200px;"
+                         alt="Some description"/>
+                    <h2 class="item_title">
+                        <a href="#">比赛3图片</a>
+                    </h2>
                 </div>
             </div>
-            <div class="columns portfolio_item" data-filter="design branding">
-                <div class="item_block">
-                    <div class="padding">
-                        <img src="images/game_icon/timg.jpeg" style="width: 200px;height: 200px;"
-                             alt="Some description"/>
-                        <h2 class="item_title">
-                            <a href="#">比赛4图片</a>
-                        </h2>
-                    </div>
+        </div>
+        <div class="columns portfolio_item" data-filter="design branding">
+            <div class="item_block">
+                <div class="padding">
+                    <img src="images/game_icon/timg.jpeg" style="width: 200px;height: 200px;"
+                         alt="Some description"/>
+                    <h2 class="item_title">
+                        <a href="#">比赛4图片</a>
+                    </h2>
                 </div>
             </div>
-        </marquee>
+        </div>
     </div>
 </div>
 
@@ -479,6 +475,7 @@
     $(document).ready(function () {
         new ZouMa().Start();
     });
+
     function ZouMa() {
         this.maxLength = 3; //最低显示数
         this.Timer = 2000;//计时器间隔时间

@@ -82,7 +82,6 @@ public class IndexServiceImpl implements IndexService {
      */
     private List<GameTrailerDTO> getGameTrailerList() {
         return gameTrailerDao.getGameTrailerList();
-
     }
 
 }

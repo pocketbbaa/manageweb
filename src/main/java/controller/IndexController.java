@@ -1,5 +1,6 @@
 package controller;
 
+import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -27,4 +28,50 @@ public class IndexController {
         return new ModelAndView("index", map);
     }
 
+
+    public static void main(String[] args) {
+
+        A a = new A(1,"aaa","1231231");
+
+        String json = JSONObject.toJSONString(a);
+
+        System.out.println(json);
+
+    }
+
+    static class A{
+        private int id;
+        private String name;
+        private String phone;
+
+        public A(int id, String name, String phone) {
+            this.id = id;
+            this.name = name;
+            this.phone = phone;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getPhone() {
+            return phone;
+        }
+
+        public void setPhone(String phone) {
+            this.phone = phone;
+        }
+    }
 }
