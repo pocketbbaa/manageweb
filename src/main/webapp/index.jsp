@@ -57,8 +57,7 @@
             <div class="ten columns">
 
                 <ul class="top_menu" data-title=":: Secondary Top Menu ::">
-                    <li><a href="#rss">RSS Feeds</a></li>
-                    <li><a href="#archives">Archive</a></li>
+                    <li><a href="#rss">成都市科技体育竞赛系列活动</a></li>
                 </ul>
 
             </div>
@@ -68,9 +67,6 @@
 
     </div>
 
-    <div class="site_header_separator"></div>
-
-
     <div class="site_logo_and_menu">
 
         <div class="container">
@@ -79,12 +75,11 @@
 
 
                 <div class="site_logo">
-                    <a href="index.html">
-                        <img src="images/crystal.png" alt="crystal" align="bottom"/>
+                    <a href="#">
+                        <img src="images/game_icon/sport_1.jpeg" alt="crystal" align="bottom"
+                             style="width: 50px;height: 50px;"/>
                     </a>
-
-                    <span class="site_slogan">Just a site tagline</span>
-
+                    <span class="site_slogan">成都市航空模型航海模型运动学校</span>
                 </div>
 
             </div>
@@ -98,7 +93,7 @@
                         <a href="index.jsp">首页</a>
                     </li>
                     <li>
-                        <a href="portfolio.html">赛事介绍</a>
+                        <a href="#">赛事介绍</a>
                         <ul>
                             <li><a href="portfolio.html">纸飞机</a></li>
                             <li><a href="portfolio.html">飞叠杯</a></li>
@@ -107,11 +102,11 @@
                         </ul>
 
                     </li>
-                    <li><a href="blog.html">比赛规程</a></li>
+                    <li><a href="#">比赛规程</a></li>
                     <li>
-                        <a href="styles.html">比赛章程</a>
+                        <a href="#">比赛章程</a>
                     </li>
-                    <li><a href="contact.html">关于航协</a></li>
+                    <li><a href="#">关于航协</a></li>
 
 
                 </ul>
@@ -140,9 +135,9 @@
     <div class="content container">
         <div id="designagency_slide" class="slide_item clearfix">
             <div class="eight columns">
-                <h1>11月<span>比赛</span> 来了</h1>
-                <h2>关注航协官网</h2>
-                <div class="text">关于比赛相关信息请关注航协官网
+                <h1>模型活动月<span>开始了！</span></h1>
+                <h2>成都市航空模型航海模型运动学校主办</h2>
+                <div class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今年我市有成华、青羊、锦江、金牛、温江、武侯、龙泉等20个区市县，200多所中小学校，170万人次的青少年参加了模型系列活动，并选拔了优秀运动员，代表成都参加了有国家五部委组织的“我爱祖国海江”全国青少年航海模型竞赛和飞向北京全国青少年航空模型竞赛。
                 </div>
                 <a href="#" class="highlight_btn"><span>详情</span></a>
             </div>
@@ -153,11 +148,11 @@
 
         <div id="browsersupport_slide" class="slide_item clearfix" data-current="true">
             <div class="eight columns">
-                <h1>四川教育网 <span>携手航协</span></h1>
-                <h2>打造一流的少儿比赛</h2>
-                <div class="text">给与青少年健康成长平台
+                <h1>“我爱祖国海疆” 航海模型丶建筑模型总决赛 <span>顺利结束</span></h1>
+                <h2>成都市航空模型航海模型运动学校主办</h2>
+                <div class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由成都茶店子小学丶营门口小学丶石室初中联合组队代表成都参加了总决赛，共获得金牌3枚 ，银牌13个，8铜牌的好成绩，成都市体育局丶成都市教育局丶都江堰教育局获得“优秀组织奖” 称号。
                 </div>
-                <a href="#" class="highlight_btn"><span>开始行动吧！</span></a>
+                <a href="#" class="highlight_btn"><span>详情</span></a>
             </div>
             <div class="eight columns align_right">
                 <img src="images/slider_item_01.png" id="cloud_img_2" alt="slider_item_01"/>
@@ -166,11 +161,11 @@
 
         <div id="browsersupport" class="slide_item clearfix">
             <div class="eight columns">
-                <h1>航协又一全国比赛 <span>即将开始</span></h1>
-                <h2>全新的比赛流程</h2>
-                <div class="text">全面的竞赛规则，更多的人员参与，你一定不能错过。
+                <h1>2014年全国青少年电子制作锦标赛 <span>顺利结束</span></h1>
+                <h2>成都市航空模型航海模型运动学校主办</h2>
+                <div class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我市全国科技体育传统校西一路小学代表成都参加2014年全国青少年电子制作锦标赛，获一等奖2个二等奖5个
                 </div>
-                <a href="#" class="highlight_btn"><span>查看详情</span></a>
+                <a href="#" class="highlight_btn"><span>详情</span></a>
             </div>
             <div class="eight columns align_right">
                 <img src="images/slider_item_01.png" id="cloud_img_3" alt="slider_item_01"/>
@@ -206,10 +201,9 @@
                                 </div>
 
                                 <div class="service_body">
-                                    <h2>Cloud hosting</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et</p>
-                                    <a href="#" class="more">More</a>
+                                    <h2>“运动成都”成都市篮球联赛</h2>
+                                    <p>“运动成都”成都市业余篮球联赛.2017年12月2日-2018年1月21日开始报名......</p>
+                                    <a href="#" class="more">更多</a>
                                 </div>
 
                             </div>
@@ -221,10 +215,9 @@
                                 </div>
 
                                 <div class="service_body">
-                                    <h2>Logo design</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et</p>
-                                    <a href="#" class="more">More</a>
+                                    <h2>华致杯企业家网球精英邀请赛</h2>
+                                    <p>华致杯企业家网球精英邀请赛。12月成都高新网球中心......</p>
+                                    <a href="#" class="more">更多</a>
                                 </div>
 
                             </div>
@@ -242,10 +235,9 @@
                                 </div>
 
                                 <div class="service_body">
-                                    <h2>Logo design</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et</p>
-                                    <a href="#" class="more">More</a>
+                                    <h2>相关文章1</h2>
+                                    <p>这是第一个相关文章......</p>
+                                    <a href="#" class="more">更多</a>
                                 </div>
 
                             </div>
@@ -257,10 +249,9 @@
                                 </div>
 
                                 <div class="service_body">
-                                    <h2>Cloud hosting</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et</p>
-                                    <a href="#" class="more">More</a>
+                                    <h2>相关文章2</h2>
+                                    <p>这是第一个相关文章......</p>
+                                    <a href="#" class="more">更多</a>
                                 </div>
 
                             </div>
@@ -274,13 +265,13 @@
                     <td class="tabs_nav">
 
                         <a href="#" class="tab_menu_item active" rel="servicesfeatures">
-                            OUR SERVICES
-                            <span>some desc here</span>
+                            比赛动态
+                            <span>查看比赛相关动态</span>
                         </a>
 
                         <a href="#" class="tab_menu_item" rel="secondtab">
-                            THEME FEATURES
-                            <span>some desc here</span>
+                            相关文章
+                            <span>查看相关文章</span>
                         </a>
 
                     </td>
@@ -298,10 +289,9 @@
                                 </div>
 
                                 <div class="service_body">
-                                    <h2>File sharing</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et</p>
-                                    <a href="#" class="more">More</a>
+                                    <h2>成都市业余少年乒乓球比赛</h2>
+                                    <p>成都市业余少年乒乓球比赛。12月成都市乒校......</p>
+                                    <a href="#" class="more">更多</a>
                                 </div>
 
                             </div>
@@ -313,10 +303,9 @@
                                 </div>
 
                                 <div class="service_body">
-                                    <h2>Photography</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et</p>
-                                    <a href="#" class="more">More</a>
+                                    <h2>成都市冬季国际象棋等级赛</h2>
+                                    <p>2017成都市冬季国际象棋等级赛。2月（4个周末）成都棋院......</p>
+                                    <a href="#" class="more">更多</a>
                                 </div>
 
                             </div>
@@ -334,10 +323,9 @@
                                 </div>
 
                                 <div class="service_body">
-                                    <h2>Photography</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et</p>
-                                    <a href="#" class="more">More</a>
+                                    <h2>相关文章3</h2>
+                                    <p>这是第三个相关文章......</p>
+                                    <a href="#" class="more">更多</a>
                                 </div>
 
                             </div>
@@ -349,10 +337,9 @@
                                 </div>
 
                                 <div class="service_body">
-                                    <h2>File sharing</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et</p>
-                                    <a href="#" class="more">More</a>
+                                    <h2>相关文章4</h2>
+                                    <p>这是第三个相关文章......</p>
+                                    <a href="#" class="more">更多</a>
                                 </div>
 
                             </div>
@@ -380,117 +367,68 @@
 
     <div class="sixteen columns">
 
-        <h2 class="title">Latest Works</h2>
+        <h2 class="title">比赛现场</h2>
 
     </div>
 
 
     <div class="portfolio_type_1">
-
-
         <div class="columns portfolio_item" data-filter="design web">
-
             <div class="item_block">
-
                 <div class="padding">
-                    <a href="images/portfolio_image_large_01.png" class="item_image zoom" title="Portfolio Item 1">
-                        <img src="images/portfolio_image_01.png" alt="Some description"/>
+                    <a href="#">
+                        <img src="images/game_icon/intro_1.jpeg" style="width: 202px;height: 153px;"/>
                     </a>
-
                     <h2 class="item_title">
-                        <a href="portfolio.html">Character Ilustration</a>
+                        <a href="#">电子科技锦标赛</a>
                     </h2>
-
-                    <p class="item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="item_description">成都市中小学无线电电子科技竞标赛，在成都盛大开幕......</p>
                 </div>
-
-                <div class="item_meta">
-                    <a href="portfolio.html" class="views">7,230</a>
-                    <a href="portfolio.html" class="likes liked">450</a>
-                </div>
-
             </div>
-
         </div>
-
 
         <div class="columns portfolio_item" data-filter="branding web">
-
             <div class="item_block">
-
                 <div class="padding">
-                    <a href="images/portfolio_image_large_01.png" class="item_image zoom" title="Portfolio Item 2">
-                        <img src="images/portfolio_image_02.png" alt="Some description"/>
+                    <a href="#">
+                        <img src="images/game_icon/intro_2.jpeg" style="width: 202px;height: 153px;"/>
                     </a>
-
                     <h2 class="item_title">
-                        <a href="portfolio.html">Behance</a>
+                        <a href="portfolio.html">航模比赛现场</a>
                     </h2>
-
-                    <p class="item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="item_description">成都市航模比赛，吸引了1000多人的参与......</p>
                 </div>
-
-                <div class="item_meta">
-                    <a href="portfolio.html" class="views">7,230</a>
-                    <a href="portfolio.html" class="likes">450</a>
-                </div>
-
             </div>
+        </div>
 
+        <div class="columns portfolio_item" data-filter="design branding">
+            <div class="item_block">
+                <div class="padding">
+                    <a href="#">
+                        <img src="images/game_icon/intro_3.jpeg" style="width: 202px;height: 153px;"/>
+                    </a>
+                    <h2 class="item_title">
+                        <a href="portfolio.html">航海模型比赛现场</a>
+                    </h2>
+                    <p class="item_description">航海模型现场，在实验小学举办,学生们参与度很高......</p>
+                </div>
+            </div>
         </div>
 
 
         <div class="columns portfolio_item" data-filter="design branding">
-
             <div class="item_block">
-
                 <div class="padding">
-                    <a href="images/portfolio_image_large_01.png" class="item_image zoom" title="Portfolio Item 3">
-                        <img src="images/portfolio_image_03.png" alt="Some description"/>
+                    <a href="#">
+                        <img src="images/game_icon/intro_4.jpg" style="width: 202px;height: 153px;"/>
                     </a>
-
                     <h2 class="item_title">
-                        <a href="portfolio.html">ThemeForest</a>
+                        <a href="portfolio.html">纸飞机比赛</a>
                     </h2>
-
-                    <p class="item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p class="item_description">纸飞机比赛，激烈的比赛现场，孩子们很认真......</p>
                 </div>
-
-                <div class="item_meta">
-                    <a href="portfolio.html" class="views">7,230</a>
-                    <a href="portfolio.html" class="likes">450</a>
-                </div>
-
             </div>
-
         </div>
-
-
-        <div class="columns portfolio_item" data-filter="design branding">
-
-            <div class="item_block">
-
-                <div class="padding">
-                    <a href="images/portfolio_image_large_01.png" class="item_image zoom" title="Portfolio Item 4">
-                        <img src="images/portfolio_image_01.png" alt="Some description"/>
-                    </a>
-
-                    <h2 class="item_title">
-                        <a href="portfolio.html">Classico</a>
-                    </h2>
-
-                    <p class="item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                </div>
-
-                <div class="item_meta">
-                    <a href="portfolio.html" class="views">7,230</a>
-                    <a href="portfolio.html" class="likes">450</a>
-                </div>
-
-            </div>
-
-        </div>
-
 
     </div>
 
@@ -504,7 +442,7 @@
 
         <div class="eight columns">
 
-            <h2 class="title">赛事预告</h2>
+            <h2 class="title">今年赛事预告</h2>
 
 
             <div class="blog_entry clearfix">
@@ -555,70 +493,41 @@
 
         <div class="eight columns">
 
-            <h2 class="title">Subscribe</h2>
+            <h2 class="title">关于比赛</h2>
 
-            <p class="droidsans">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-
-
-            <form method="post" name="subscribe_form" class="subscribe_form clearfix"/>
-
-            <input type="text" name="subscribe_email" class="subscribe_email" placeholder="Your email" value=""/>
-            <button type="submit" name="subscribe" class="subscribe"><span>Subscribe me</span></button>
+            <p class="droidsans">成都市银都小学、七中育才、室外西区代表成都参加2014年全国青少年无线电测向锦标赛获得3.5MHZ、114MHz接力赛少年男子三等奖、3.5MHZ、114MHz接力赛接力赛少年女子三等奖和体育道德风尚奖</p>
 
 
-            </form>
-
-
-            <h2 class="title">Testimonials</h2>
+            <h2 class="title">动态新闻</h2>
 
             <ul class="home_testimonials" data-autoswitch="1" data-timeout="3.5">
-                <li data-author="Jeremy H.">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmoad
-                    tempor incididunt ut labore et dolore magsdna
+                <li data-author="2018-1-3">金牛区2018年首场全民健身活动在沙河源街道举行
                 </li>
-                <li data-author="Adele K.">Consectetur adipisicing elit, sed do eiusmoad tempor incididunt ut labore et
-                    dolore magsdna
+                <li data-author="2018-1-3">成都市社会体育指导员协会参加2018年迎新春毽球联谊赛
                 </li>
-                <li data-author="John Doe">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium
-                    lectorum. Mirum est notare quam
+                <li data-author="2018-1-3">成都市第34届冬泳比赛圆满结束
                 </li>
             </ul>
 
             <div class="clear"></div>
             <div class="vspacer"></div>
-
         </div>
-
     </div>
-
     <div class="stripes"></div>
-
-
 </div>
 
 
 <div class="content container">
-
-
     <div class="sixteen columns">
-        <h2 class="title">Our Partners</h2>
-
-
+        <h2 class="title">合作伙伴</h2>
         <ul class="partners_carousel clearfix">
             <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
             <li><a href="#"><img src="images/partner_02.png" alt="partner_02"/></a></li>
             <li><a href="#"><img src="images/partner_03.png" alt="partner_03"/></a></li>
             <li><a href="#"><img src="images/partner_04.png" alt="partner_04"/></a></li>
             <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
-            <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
-            <li><a href="#"><img src="images/partner_03.png" alt="partner_03"/></a></li>
-            <li><a href="#"><img src="images/partner_02.png" alt="partner_02"/></a></li>
-            <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
-            <li><a href="#"><img src="images/partner_04.png" alt="partner_04"/></a></li>
-
         </ul>
-
     </div>
-
 
 </div>
 
@@ -635,17 +544,12 @@
 
             <div class="four columns">
 
-                <h2 class="footer_heading">Archives</h2>
-
-
+                <h2 class="footer_heading">友情链接</h2>
                 <ul>
-                    <li><a href="#">Art History (1)</a></li>
-                    <li><a href="#">Philosofy (6)</a></li>
-                    <li><a href="#">Photografy (3)</a></li>
-                    <li><a href="#">Running (4)</a></li>
-                    <li><a href="#">ThemeForest (2)</a></li>
-                    <li><a href="#">Kosovo (5)</a></li>
-
+                    <li><a href="#">中国—成都</a></li>
+                    <li><a href="#">成都市少年儿童业余体校</a></li>
+                    <li><a href="#">成都市信鸽协会</a></li>
+                    <li><a href="#">都市全国重点乒乓球运动学校</a></li>
                 </ul>
 
 
@@ -653,44 +557,23 @@
 
 
             <div class="four columns">
-
-                <h2 class="footer_heading">Twitter</h2>
-
-
-                <ul class="tweets" data-timeout="5" data-tweets="2">
-                    <li><a href="#">@crystaltheme</a> Sed ut perspiciatis de omnis iste natus voluptatem accusantium&#8230;
-                    </li>
-                    <li><a href="#">@crystaltheme</a> Sed ut perspiciatis de omnis iste natus voluptatem accusantium&#8230;
-                    </li>
-                    <li><a href="#">@crystaltheme</a> Sed ut perspiciatis de omnis iste natus voluptatem accusantium&#8230;
-                    </li>
-                    <li><a href="#">@crystaltheme</a> Sed ut perspiciatis de omnis iste natus voluptatem accusantium&#8230;
-                    </li>
+                <h2 class="footer_heading">&nbsp;</h2>
+                <ul>
+                    <li><a href="#">国家体育总局</a></li>
+                    <li><a href="#">成都市猛追湾游泳场</a></li>
+                    <li><a href="#">成都市足球协会</a></li>
+                    <li><a href="#">成都市足球协会</a></li>
                 </ul>
-
 
             </div>
 
 
             <div class="four columns">
 
-                <h2 class="footer_heading">Photo Stream</h2>
+                <h2 class="footer_heading">官方微博</h2>
 
                 <div class="photostream">
 
-                    <a href="#"><img src="images/sample_image_01.png" alt="sample_image_01"/></a>
-                    <a href="#"><img src="images/sample_image_02.png" alt="sample_image_02"/></a>
-                    <a href="#"><img src="images/sample_image_03.png" alt="sample_image_03"/></a>
-                    <a href="#"><img src="images/sample_image_03.png" alt="sample_image_03"/></a>
-                    <a href="#"><img src="images/sample_image_04.png" alt="sample_image_04"/></a>
-                    <a href="#"><img src="images/sample_image_01.png" alt="sample_image_01"/></a>
-
-                    <a href="#"><img src="images/sample_image_03.png" alt="sample_image_01"/></a>
-                    <a href="#"><img src="images/sample_image_04.png" alt="sample_image_02"/></a>
-                    <a href="#"><img src="images/sample_image_04.png" alt="sample_image_03"/></a>
-                    <a href="#"><img src="images/sample_image_01.png" alt="sample_image_03"/></a>
-                    <a href="#"><img src="images/sample_image_03.png" alt="sample_image_04"/></a>
-                    <a href="#"><img src="images/sample_image_02.png" alt="sample_image_01"/></a>
                 </div>
 
 
@@ -699,11 +582,8 @@
 
             <div class="four columns">
 
-                <h2 class="footer_heading">Text Widget</h2>
+                <h2 class="footer_heading">官方微信</h2>
 
-                <p>Praesent cursus augue sed dui condimentum bibendum. Pellentesque iaculis diam ut risus laoreet eget
-                    aliquet purus condimentum. Integer sit amet semper arcu. Phasellus ac ante cursus diam interdum
-                    tempor eu sit amet ipsum.</p>
 
             </div>
 
@@ -719,13 +599,12 @@
 
 
             <div class="seven columns" id="copyrights">
-                &copy; Copyright 2012. Designed by <a href="#">Arianeet</a> Collect from <a
-                    href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></div>
+                &copy; 联系电话： <a href="#">135**********</a>&nbsp;&nbsp;&nbsp;&nbsp;邮编：<a href="#">65432</a>&nbsp;&nbsp;&nbsp;&nbsp;地址：<a href="#">一个地方</a></div>
 
 
             <div class="seven columns align_right" id="copyrights_secondary">
 
-                Powered by <a href="#">WordPress</a>
+                网站备案 <a href="#">*******</a>
 
 
             </div>
