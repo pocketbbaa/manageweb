@@ -21,17 +21,18 @@ public class IndexController {
     @RequestMapping(value = "/index")
     public ModelAndView index(ModelMap map) {
 
-        IndexVO indexVO = indexService.getIndexVO(1);
-        map.put("indexVO", indexVO);
-
-        System.out.println("indexVO:" + indexVO);
+        System.out.println("in index ...");
+//        IndexVO indexVO = indexService.getIndexVO(1);
+//        map.put("indexVO", indexVO);
+//
+//        System.out.println("indexVO:" + indexVO);
         return new ModelAndView("index", map);
     }
 
 
     public static void main(String[] args) {
 
-        A a = new A(1,"aaa","1231231");
+        A a = new A(1, "aaa", "1231231");
 
         String json = JSONObject.toJSONString(a);
 
@@ -39,7 +40,7 @@ public class IndexController {
 
     }
 
-    static class A{
+    static class A {
         private int id;
         private String name;
         private String phone;

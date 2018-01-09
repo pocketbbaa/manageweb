@@ -150,7 +150,8 @@
             <div class="eight columns">
                 <h1>“我爱祖国海疆” 航海模型丶建筑模型总决赛 <span>顺利结束</span></h1>
                 <h2>成都市航空模型航海模型运动学校主办</h2>
-                <div class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由成都茶店子小学丶营门口小学丶石室初中联合组队代表成都参加了总决赛，共获得金牌3枚 ，银牌13个，8铜牌的好成绩，成都市体育局丶成都市教育局丶都江堰教育局获得“优秀组织奖” 称号。
+                <div class="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由成都茶店子小学丶营门口小学丶石室初中联合组队代表成都参加了总决赛，共获得金牌3枚
+                    ，银牌13个，8铜牌的好成绩，成都市体育局丶成都市教育局丶都江堰教育局获得“优秀组织奖” 称号。
                 </div>
                 <a href="#" class="highlight_btn"><span>详情</span></a>
             </div>
@@ -495,7 +496,8 @@
 
             <h2 class="title">关于比赛</h2>
 
-            <p class="droidsans">成都市银都小学、七中育才、室外西区代表成都参加2014年全国青少年无线电测向锦标赛获得3.5MHZ、114MHz接力赛少年男子三等奖、3.5MHZ、114MHz接力赛接力赛少年女子三等奖和体育道德风尚奖</p>
+            <p class="droidsans">
+                成都市银都小学、七中育才、室外西区代表成都参加2014年全国青少年无线电测向锦标赛获得3.5MHZ、114MHz接力赛少年男子三等奖、3.5MHZ、114MHz接力赛接力赛少年女子三等奖和体育道德风尚奖</p>
 
 
             <h2 class="title">动态新闻</h2>
@@ -521,11 +523,16 @@
     <div class="sixteen columns">
         <h2 class="title">合作伙伴</h2>
         <ul class="partners_carousel clearfix">
-            <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
-            <li><a href="#"><img src="images/partner_02.png" alt="partner_02"/></a></li>
-            <li><a href="#"><img src="images/partner_03.png" alt="partner_03"/></a></li>
-            <li><a href="#"><img src="images/partner_04.png" alt="partner_04"/></a></li>
-            <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
+            <li><a href="#"><img src="images/game_icon/bell_1.jpeg" alt="partner_01"
+                                 style="width: 100px;height: 40px;"/></a></li>
+            <li><a href="#"><img src="images/game_icon/bell_1.jpeg" alt="partner_02"
+                                 style="width: 100px;height: 40px;"/></a></li>
+            <li><a href="#"><img src="images/game_icon/bell_1.jpeg" alt="partner_03"
+                                 style="width: 100px;height: 40px;"/></a></li>
+            <li><a href="#"><img src="images/game_icon/bell_1.jpeg" alt="partner_04"
+                                 style="width: 100px;height: 40px;"/></a></li>
+            <li><a href="#"><img src="images/game_icon/bell_1.jpeg" alt="partner_01"
+                                 style="width: 100px;height: 40px;"/></a></li>
         </ul>
     </div>
 
@@ -599,7 +606,8 @@
 
 
             <div class="seven columns" id="copyrights">
-                &copy; 联系电话： <a href="#">135**********</a>&nbsp;&nbsp;&nbsp;&nbsp;邮编：<a href="#">65432</a>&nbsp;&nbsp;&nbsp;&nbsp;地址：<a href="#">一个地方</a></div>
+                &copy; 联系电话： <a href="#">135**********</a>&nbsp;&nbsp;&nbsp;&nbsp;邮编：<a href="#">65432</a>&nbsp;&nbsp;&nbsp;&nbsp;地址：<a
+                    href="#">一个地方</a></div>
 
 
             <div class="seven columns align_right" id="copyrights_secondary">
