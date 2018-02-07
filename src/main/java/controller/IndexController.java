@@ -24,7 +24,6 @@ public class IndexController {
         System.out.println("in index ...");
 //        IndexVO indexVO = indexService.getIndexVO(1);
 //        map.put("indexVO", indexVO);
-//
 //        System.out.println("indexVO:" + indexVO);
         return new ModelAndView("index", map);
     }
