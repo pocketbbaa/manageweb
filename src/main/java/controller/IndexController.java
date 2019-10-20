@@ -1,13 +1,13 @@
 package controller;
 
-import com.alibaba.fastjson.JSONObject;
+import dto.InfoDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import service.IndexService;
-import vo.IndexVO;
 
 /**
  * 首页
@@ -18,60 +18,46 @@ public class IndexController {
     @Autowired
     private IndexService indexService;
 
+    @RequestMapping(value = "/")
+    public ModelAndView loginPage(ModelMap map) {
+        System.out.println("in login ...");
+        return new ModelAndView("login");
+    }
+
+
+    @RequestMapping(value = "/login")
+    public ModelAndView login(ModelMap map) {
+        System.out.println("in login ...");
+        return new ModelAndView("redirect:/index");
+    }
+
+
     @RequestMapping(value = "/index")
-    public ModelAndView index(ModelMap map) {
-
-        System.out.println("in index ...");
-//        IndexVO indexVO = indexService.getIndexVO(1);
-//        map.put("indexVO", indexVO);
-//        System.out.println("indexVO:" + indexVO);
-        return new ModelAndView("index", map);
+    public String index(ModelMap map) {
+        System.out.println("in login ...");
+        InfoDTO infoDTO = indexService.getIndex();
+        map.addAttribute("info", infoDTO);
+        return "index";
     }
 
 
-    public static void main(String[] args) {
-
-        A a = new A(1, "aaa", "1231231");
-
-        String json = JSONObject.toJSONString(a);
-
-        System.out.println(json);
-
+    @RequestMapping(value = "/classInfo/{id}")
+    public ModelAndView classInfo(ModelMap map, @PathVariable("id") Integer id) {
+        System.out.println("in classInfo  ...id:" + id);
+        return new ModelAndView("class_info", map);
     }
 
-    static class A {
-        private int id;
-        private String name;
-        private String phone;
 
-        public A(int id, String name, String phone) {
-            this.id = id;
-            this.name = name;
-            this.phone = phone;
-        }
+    @RequestMapping(value = "/classManage")
+    public ModelAndView classManage(ModelMap map) {
+        System.out.println("in classManage  ...");
+        return new ModelAndView("class_manage", map);
+    }
 
-        public int getId() {
-            return id;
-        }
 
-        public void setId(int id) {
-            this.id = id;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public String getPhone() {
-            return phone;
-        }
-
-        public void setPhone(String phone) {
-            this.phone = phone;
-        }
+    @RequestMapping(value = "/addManage")
+    public ModelAndView addManage(ModelMap map) {
+        System.out.println("in addManage  ...");
+        return new ModelAndView("og_manage", map);
     }
 }

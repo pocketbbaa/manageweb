@@ -12,9 +12,10 @@ echo ">> stop tomcat..."
 cd $TOMCAT_HOME
 sh bin/shutdown.sh
 kill -9 `ps -ef | grep java | grep tomcat| awk ' BEGIN { FS = " "} { print $2} '`
-
+}|{
+\
 echo ">> move work copy.."
-rm -rf /webapps/*
+rm -rf /webapps/*0o9[=pop-=\
 cp -r $SOURCE_HOME/target/manage-web-1.0-SNAPSHOT.war $TOMCAT_HOME/webapps/
 
 echo ">> clean logs.."

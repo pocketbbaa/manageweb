@@ -1,241 +1,99 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]--><html lang="en">
-<html>
+<html lang="en">
+
 <head>
 
-
-    <meta charset="utf-8"/>
-    <title>运动成都-竞赛报名站点</title>
-    <meta name="description" content="Crystal Theme"/>
-    <meta name="author" content="Arlind Nushi and Arianit Selimaj"/>
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no"/>
 
 
-    <link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css"/>
-    <link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
-          type="text/css"/>
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#49CEFF">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#49CEFF"/>
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>Login</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="bower_components/metisMenu/dist/metisMenu.min.css">
+    <link rel="stylesheet" href="bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="bower_components/Waves/dist/waves.min.css">
+    <link rel="stylesheet" href="bower_components/toastr/toastr.css">
 
 
-    <link rel="stylesheet" href="css/base.css"/>
-    <link rel="stylesheet" href="css/skeleton.css"/>
-    <link rel="stylesheet" href="css/crystal.css"/>
-    <link rel="stylesheet" href="css/layout.css"/>
-    <link rel="stylesheet" href="css/isotope.css"/>
+    <link rel="stylesheet" href="css/style.css">
 
+
+    <!--
+      <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="bower_components/html5shiv/dist/html5shiv.min,js"></script>
+    <script src="bower_components/respondJs/dest/respond.min.js"></script>
     <![endif]-->
-
-
-    <link rel="stylesheet" href="js/prettyphoto/css/prettyPhoto.css"/>
-
-
-    <link rel="shortcut icon" href="images/favicon.ico"/>
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
-
-
-    <script src="js/jquery-1.7.2.min.js"></script>
-
 </head>
-<body class="pat_01">
 
-
-<div class="site_header">
-
-
-    <div class="bar_top">
-
-        <div class="container">
-
-            <div class="ten columns">
-
-                <ul class="top_menu" data-title=":: Secondary Top Menu ::">
-                    <li><a href="#rss">成都市科技体育竞赛系列竞赛活动</a></li>
-                </ul>
-
-            </div>
-
-            <div class="six columns">
-
-            </div>
-
-        </div>
+<body class="user-page">
+<!--Preloader-->
+<div id="preloader">
+    <div class="refresh-preloader">
+        <div class="preloader"><i>.</i><i>.</i><i>.</i></div>
     </div>
-
-    <div class="site_header_separator"></div>
-
-
-    <div class="site_logo_and_menu">
-
-        <div class="container">
-
-            <div class="six columns">
+</div>
 
 
-                <div class="site_logo">
-                    <a href="index.jsp">
-                        <img src="images/game_icon/123.jpg" style="width: 80px;height: 80px;" alt="竞赛报名网"
-                             align="bottom"/>
-                    </a>
+<div class="wrapper warning-bg">
+    <div class="table-wrapper text-center">
+        <div class="table-row">
+            <div class="table-cell">
+                <div class="login">
 
-                    <span class="site_slogan">成都市航空模型运动协会办公室</span>
+                    <div>
+                        <img src="img/logo.png" style="width: 300px;height: 120px">
+                    </div>
+                    <h4 class="text-center">小小舅STEAM</h4>
+                    <h4 class="text-center">课程管理系统</h4>
+                    <form action="login">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="login" placeholder="用户名">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" placeholder="密码">
+                        </div>
+
+                        <div class="form-group text-left">
+
+                        </div>
+
+                        <button type="submit" class="btn btn-block btn-lg btn-primary">进入系统</button>
+
+                    </form>
 
                 </div>
-
-            </div>
-
-            <div class="ten columns">
-
-
-                <ul class="main_menu" data-title=":: Crystal Main Nav ::">
-
-                    <li>
-                        <a href="index.jsp">首页</a>
-                    </li>
-                    <li>
-                        <a href="game_info.jsp">赛事介绍</a>
-                        <ul>
-                            <li><a href="/game_info.jsp">纸飞机</a></li>
-                            <li><a href="/game_info.jsp">飞叠杯</a></li>
-                            <li><a href="/game_info.jsp">四驱车</a></li>
-                        </ul>
-                    </li>
-                    <li class="active"><a href="login.jsp">报名通道</a></li>
-                    <li><a href="#">成绩展示</a></li>
-                    <li><a href="#">关于我们</a></li>
-                </ul>
-
-            </div>
-
-        </div>
-
-
-        <div class="container" id="mobile_menu">
-            <div class="sixteen columns">
-
             </div>
         </div>
-
-
-    </div>
-
-
-</div>
-
-
-<div class="container margin_top">
-
-    <div class="sixteen columns">
-
-        <h2 class="title">请先登录</h2>
     </div>
 
 </div>
-<div class="content white_block tight">
 
-    <div class="container">
-
-        <div class="sixteen columns">
-
-
-            <div class="error_404">
-
-                <form method="post" name="subscribe_form" class="subscribe_form clearfix" action="/teacher_add.jsp"/>
-
-                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
-                       placeholder="手机号" value=""/>
-
-                <input type="text" style="width: 300px;margin-left: 30%" name="subscribe_email" class="subscribe_email"
-                       placeholder="密码" value=""/>
-
-
-                <button type="submit" name="subscribe" class="subscribe" style="margin-left: 40px;"><span>下一步</span></button>
-
-
-                </form>
-
-                <p class="droidsans"><a href="regist.jsp">没有账号点我注册！</a></p>
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="stripes"></div>
-
-
-</div>
-
-<div class="content container">
-
-
-    <div class="sixteen columns">
-        <h2 class="title">合作伙伴</h2>
-
-
-        <ul class="partners_carousel clearfix">
-            <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
-            <li><a href="#"><img src="images/partner_02.png" alt="partner_02"/></a></li>
-            <li><a href="#"><img src="images/partner_03.png" alt="partner_03"/></a></li>
-            <li><a href="#"><img src="images/partner_04.png" alt="partner_04"/></a></li>
-            <li><a href="#"><img src="images/partner_01.png" alt="partner_01"/></a></li>
-        </ul>
-
-    </div>
-
-
-</div>
-
-
-<div class="site_footer">
-    <div class="footer_bottom">
-
-        <div class="container">
-
-
-            <div class="two columns" id="back_to_top">
-
-                <a href="#" class="back_to_top">Back to Top</a>
-
-
-            </div>
-
-        </div>
-
-
-    </div>
-
-
-</div>
-
-
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.transit.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/prettyphoto/jquery.prettyPhoto.js"></script>
-<script src="js/jquery.infinitescroll.js"></script>
-<script src="js/hover.zoom.js"></script>
-<script src="js/jquery.selectbox-0.1.3.min.js"></script>
-<script src="js/jquery.winres.js"></script>
-<script src="js/jquery.ancarousel.js"></script>
-<script src="js/jquery.featurestabs.js"></script>
-<script src="js/jquery.asyncslider.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/mobile-menu.js"></script>
-<script src="js/media-helper.js"></script>
-<script src="js/tabs.js"></script>
-
-
-<%--<script src="js/style-switcher.js"></script>--%>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script>
+    $('#preloader').height($(window).height() + "px");
+    $(window).on('load', function () {
+        setTimeout(function () {
+            $('body').css("overflow-y", "visible");
+            $('#preloader').fadeOut(50);
+        }, 100);
+    });
+</script>
 
 </body>
 </html>

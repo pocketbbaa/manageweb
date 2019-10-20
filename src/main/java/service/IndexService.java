@@ -1,9 +1,8 @@
 package service;
 
-import vo.IndexVO;
+import dto.InfoDTO;
 
 public interface IndexService {
 
-    IndexVO getIndexVO(int id);
-
+    InfoDTO getIndex();
 }
