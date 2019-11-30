@@ -91,4 +91,10 @@ public class ClassServiceImpl implements ClassService {
     public void deleteClassPhaseById(Integer id) {
         classPhaseDao.deleteClassPhaseById(id);
     }
+
+    @Override
+    public ClassPackage getClassPackageById(Integer id) {
+
+        return classPackageDao.getById(id);
+    }
 }

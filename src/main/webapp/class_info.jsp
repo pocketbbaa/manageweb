@@ -72,27 +72,26 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="content-box o-hidden">
+                    <div class="content-box">
                         <div class="head warning-bg clearfix">
-                            <h5 class="content-title pull-left">课程主题1课件</h5>
+                            <h5 class="content-title pull-left">课件</h5>
                             <div class="functions-btns pull-right">
                                 <a class="fullscreen-btn" href="#"><i class="zmdi zmdi-fullscreen"></i></a>
                             </div>
                         </div>
 
                         <div class="content">
-                            <h3>课程主题1课件</h3>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
+                            <h3>${classPackage.name}</h3>
+                            <c:forEach var="i" begin="1" end='14'>
+                                <p><img style="width: 100%;height: 50%"
+                                        src="${ctx}/class/${classPackage.name}/教程/幻灯片${i}.png"/></p>
+                                <p style="height: 50px;"></p>
+                            </c:forEach>
                         </div>
                     </div>
 
 
-                    <div class="content-box o-hidden">
+                    <div class="content-box">
                         <div class="head success-bg clearfix">
                             <h5 class="content-title pull-left">本课程由本舅舅提供</h5>
                             <div class="functions-btns pull-right">
@@ -105,22 +104,21 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="content-box o-hidden">
+                    <div class="content-box">
                         <div class="head success-bg clearfix">
-                            <h5 class="content-title pull-left">课程主题1教参</h5>
+                            <h5 class="content-title pull-left">教参</h5>
                             <div class="functions-btns pull-right">
                                 <a class="fullscreen-btn" href="#"><i class="zmdi zmdi-fullscreen"></i></a>
                             </div>
                         </div>
 
                         <div class="content">
-                            <h3>课程主题1教参</h3>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
-                            <p><img src="${ctx}/img/logo.png"/></p>
+                            <h3>${classPackage.name}</h3>
+                            <c:forEach var="i" begin="1" end="14">
+                                <p><img style="width: 100%;height: 50%"
+                                        src="${ctx}/class/${classPackage.name}/教参/幻灯片${i}.png"/></p>
+                                <p style="height: 50px;"></p>
+                            </c:forEach>
                         </div>
                     </div>
 

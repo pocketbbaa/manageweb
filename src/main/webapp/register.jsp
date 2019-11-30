@@ -55,28 +55,15 @@
         <div class="table-row">
             <div class="table-cell">
                 <div class="login">
-
                     <div>
                         <img src="img/logo.png" style="width: 300px;height: 120px">
                     </div>
                     <h4 class="text-center">小小舅STEAM</h4>
                     <h4 class="text-center">课程管理系统</h4>
-                    <form action="login">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="login" placeholder="用户名" name="userName">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="password" placeholder="密码" name="password">
-                        </div>
-
-                        <div class="form-group text-left">
-
-                        </div>
-
-                        <button type="submit" class="btn btn-block btn-lg btn-primary">进入系统</button>
-
-                    </form>
-
+                    <br/>
+                    <h5 class="text-center" style="color: red">抱歉，您还未注册，请联系我们开通服务。</h5>
+                    <h5 class="text-center">联系电话：13880264646</h5>
+                    <a type="submit" class="btn btn-block btn-lg btn-primary" href="/">重新登录</a>
                 </div>
             </div>
         </div>

@@ -16,4 +16,6 @@ public interface SchoolDao {
     void update(SchoolDTO schoolDTO);
 
     void deleteById(@Param("id") Integer id);
+
+    SchoolDTO getByUserNameAndPassword(@Param("userName") String userName, @Param("password") String password);
 }

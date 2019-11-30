@@ -22,4 +22,6 @@ public interface ClassService {
     void deleteClassPackageById(Integer id);
 
     void deleteClassPhaseById(Integer id);
+
+    ClassPackage getClassPackageById(Integer id);
 }

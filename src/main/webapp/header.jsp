@@ -15,7 +15,7 @@
     </div>
     <div class="navbar-container clearfix">
         <div class="pull-left">
-            <a href="#" class="page-title text-uppercase">UNCLE-steam</a>
+            <a href="#" class="page-title text-uppercase">UNCLE-steam 课程管理系统</a>
         </div>
 
         <div class="pull-right">
@@ -48,83 +48,66 @@
                 </div>
                 <div class="profile-usertitle">
                     <div class="name">
-                        oo机器人学校
+                        ${school.name}
                     </div>
                     <div class="city">
-                        <i class="zmdi zmdi-pin"></i>四川-成都-oo校区
+                        <i class="zmdi zmdi-pin"></i>${school.address}
                     </div>
                 </div>
                 <div class="profile-activity clearfix">
                     <div class="pull-left">
                         账户编号
                         <br>
-                        <span>SC</span>
+                        <span>${school.accountNum}</span>
                     </div>
                     <div class="pull-right">
                         单位编号
                         <br>
-                        <span>01</span>
+                        <span>${school.unitNum}</span>
                     </div>
                 </div>
             </div>
         </li>
-        <li>
-            <a aria-expanded="false" href="#"><i class="zmdi zmdi-apps"></i>课程类别1<span
-                    class="zmdi arrow"></span></a>
-            <ul aria-expanded="false" class="nav nav-inside collapse">
-                <li class="inside-title">Apps</li>
-                <li class="menu-child">
-                    <a aria-expanded="false" href="#"><i class="zmdi zmdi-email"></i>课程阶段1<span
-                            class="zmdi arrow"></span></a>
-                    <ul aria-expanded="false" class="nav nav-inside collapse">
-                        <li class="inside-title">课程包</li>
-                        <li><a href="${ctx}/classInfo/1">课程包1</a></li>
-                        <li><a href="${ctx}/classInfo/2">课程包2</a></li>
-                        <li><a href="${ctx}/classInfo/3">课程包3</a></li>
-                        <li><a href="${ctx}/classInfo/4">课程包4</a></li>
-                    </ul>
-                </li>
-                <li class="menu-child">
-                    <a aria-expanded="false" href="#"><i class="zmdi zmdi-format-list-numbered"></i>课程阶段2<span
-                            class="zmdi arrow"></span></a>
-                    <ul aria-expanded="false" class="nav nav-inside collapse">
-                        <li class="inside-title">Tasks</li>
-                        <li><a href="${ctx}/classInfo/1">课程包1</a></li>
-                        <li><a href="${ctx}/classInfo/1">课程包2</a></li>
-                        <li><a href="${ctx}/classInfo/1">课程包3</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a aria-expanded="false" href="#"><i class="zmdi zmdi-apps"></i>课程类别2<span
-                    class="zmdi arrow"></span></a>
-            <ul aria-expanded="false" class="nav nav-inside collapse">
-                <li class="inside-title">Apps</li>
 
-                <li class="menu-child">
-                    <a aria-expanded="false" href="#"><i class="zmdi zmdi-email"></i>课程阶段1<span
-                            class="zmdi arrow"></span></a>
-                    <ul aria-expanded="false" class="nav nav-inside collapse">
-                        <li class="inside-title">课程包1</li>
-                        <li><a href="${ctx}/classInfo/1">课程包1</a></li>
-                        <li><a href="${ctx}/classInfo/1">课程包2</a></li>
-                        <li><a href="${ctx}/classInfo/1">课程包3</a></li>
-                        <li><a href="${ctx}/classInfo/1">课程包4</a></li>
-                    </ul>
-                </li>
-                <li class="menu-child">
-                    <a aria-expanded="false" href="#"><i class="zmdi zmdi-format-list-numbered"></i>课程阶段2<span
-                            class="zmdi arrow"></span></a>
-                    <ul aria-expanded="false" class="nav nav-inside collapse">
-                        <li class="inside-title">Tasks</li>
-                        <li><a href="${ctx}/classInfo/1">课程包1</a></li>
-                        <li><a href="${ctx}/classInfo/1">课程包2</a></li>
-                        <li><a href="${ctx}/classInfo/1">课程包3</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
+        <c:forEach items="${classTypeList}" var="classType">
+            <li>
+                <a aria-expanded="false" href="#"><i class="zmdi zmdi-apps"></i>${classType.name}<span
+                        class="zmdi arrow"></span></a>
+                <ul aria-expanded="false" class="nav nav-inside collapse">
+                    <li class="inside-title">Apps</li>
+
+                    <c:forEach items="${classType.classTypeSonList}" var="classTypeSon">
+                        <li class="menu-child">
+                            <a aria-expanded="false" href="#"><i class="zmdi zmdi-email"></i>${classTypeSon.name}<span
+                                    class="zmdi arrow"></span></a>
+                            <ul aria-expanded="false" class="nav nav-inside collapse">
+                                <li class="inside-title">课程包</li>
+
+                                <c:forEach items="${classTypeSon.classPhaseList}" var="classPhase">
+                                    <li class="menu-child">
+                                        <a aria-expanded="false" href="#"><i
+                                                class="zmdi zmdi-email"></i>${classPhase.name}<span
+                                                class="zmdi arrow"></span></a>
+                                        <ul aria-expanded="false" class="nav nav-inside collapse">
+                                            <li class="inside-title">课程包</li>
+
+                                            <c:forEach items="${classPhase.classPackageList}" var="classPackage">
+                                                <li><a href="${ctx}/classInfo/${classPackage.id}"><h5
+                                                        style="color: orange">${classPackage.name}</h5></a>
+                                                </li>
+                                            </c:forEach>
+
+                                        </ul>
+                                    </li>
+                                </c:forEach>
+                            </ul>
+                        </li>
+                    </c:forEach>
+
+                </ul>
+            </li>
+        </c:forEach>
+
         <li>
             <a href="${ctx}/class/manage"><i class="zmdi zmdi-view-dashboard"></i>课程管理</a>
         </li>

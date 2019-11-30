@@ -17,4 +17,8 @@
         delete from class_package where id = #{id}
     </delete>
 
+    <select id="getById" parameterType="java.lang.Integer" resultType="dto.ClassPackage">
+        select id,name from class_package where id = #{id}
+    </select>
+
 </mapper>

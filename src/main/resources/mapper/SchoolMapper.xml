@@ -13,6 +13,10 @@
         select * from school where id = #{id}
     </select>
 
+    <select id="getByUserNameAndPassword" resultType="dto.SchoolDTO">
+        select * from school where user_name = #{userName} and password = #{password} limit 1
+    </select>
+
     <insert id="add">
         INSERT INTO school ( NAME, account_num, unit_num, address, user_name, password, create_time, des, type )
         VALUES

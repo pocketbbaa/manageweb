@@ -13,4 +13,5 @@ public interface ClassPackageDao {
 
     void deleteClassPackageById(@Param("id") Integer id);
 
+    ClassPackage getById(@Param("id") Integer id);
 }
