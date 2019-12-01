@@ -1,5 +1,5 @@
-TOMCAT_HOME="/www/tomcat/apache-tomcat-8.0.48"
-SOURCE_HOME="/www/manageweb/manageweb"
+TOMCAT_HOME="/data/apache-tomcat-8.5.42"
+SOURCE_HOME="/data/project/manageweb"
 
 echo ">> pull source code from master branch..."
 cd $SOURCE_HOME
