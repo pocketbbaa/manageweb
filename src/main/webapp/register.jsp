@@ -63,7 +63,7 @@
                     <br/>
                     <h5 class="text-center" style="color: red">抱歉，您还未注册，请联系我们开通服务。</h5>
                     <h5 class="text-center">联系电话：13880264646</h5>
-                    <a type="submit" class="btn btn-block btn-lg btn-primary" href="/">重新登录</a>
+                    <a type="submit" class="btn btn-block btn-lg btn-primary" href="/manage-web-1.0-SNAPSHOT">重新登录</a>
                 </div>
             </div>
         </div>
