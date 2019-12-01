@@ -18,7 +18,7 @@
     </delete>
 
     <select id="getById" parameterType="java.lang.Integer" resultType="dto.ClassPackage">
-        select id,name from class_package where id = #{id}
+        select id,name,p_id,page from class_package where id = #{id}
     </select>
 
 </mapper>

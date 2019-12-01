@@ -82,9 +82,10 @@
 
                         <div class="content">
                             <h3>${classPackage.name}</h3>
-                            <c:forEach var="i" begin="1" end='13'>
+                            <c:forEach var="i" begin="1" end='${classPackage.page}'>
                                 <p><img style="width: 100%;height: 50%"
-                                        src="${ctx}/class/${classPackage.name}/教程/幻灯片${i}.png"/></p>
+                                        src="${ctx}/class/${classType.name}/${classTypeSon.name}/${classPhase.name}/${classPackage.name}/教程/幻灯片${i}.png"/>
+                                </p>
                                 <p style="height: 50px;"></p>
                             </c:forEach>
                         </div>
@@ -115,7 +116,7 @@
                         <div class="content">
                             <h3>${classPackage.name}</h3>
                             <p><img style="width: 100%;height: 50%"
-                                    src="${ctx}/class/${classPackage.name}/教参/1.png"/></p>
+                                    src="${ctx}/class/${classType.name}/${classTypeSon.name}/${classPhase.name}/${classPackage.name}/教参/1.png"/></p>
                             <p style="height: 50px;"></p>
                         </div>
                     </div>

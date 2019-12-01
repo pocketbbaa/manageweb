@@ -1,10 +1,7 @@
 package controller;
 
 import com.alibaba.fastjson.JSONObject;
-import dto.ClassPackage;
-import dto.ClassType;
-import dto.InfoDTO;
-import dto.SchoolDTO;
+import dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -75,7 +72,14 @@ public class IndexController {
     public ModelAndView classInfo(ModelMap map, @PathVariable("id") Integer id, HttpServletRequest request) {
         System.out.println("in classInfo  ...id:" + id);
         ClassPackage classPackage = classService.getClassPackageById(id);
+        ClassPhase classPhase = classService.getClassPhaseById(classPackage.getpId());
+        ClassTypeSon classTypeSon = classService.getClassTypeSonById(classPhase.getpId());
+        ClassType classType = classService.getClassTypeById(classTypeSon.getpId());
         buildHeader(map, request);
+
+        map.addAttribute("classType", classType);
+        map.addAttribute("classTypeSon", classTypeSon);
+        map.addAttribute("classPhase", classPhase);
         map.addAttribute("classPackage", classPackage);
         return new ModelAndView("class_info", map);
     }

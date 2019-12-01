@@ -12,4 +12,6 @@ public interface ClassPhaseDao {
     void add(ClassPhase classPhase);
 
     void deleteClassPhaseById(@Param("pId") Integer id);
+
+    ClassPhase getById(@Param("id") Integer id);
 }

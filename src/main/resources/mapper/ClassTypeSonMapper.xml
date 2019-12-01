@@ -13,4 +13,8 @@
         insert into class_type_son (name,p_id) values (#{name},#{pId})
     </insert>
 
+    <select id="getById" parameterType="java.lang.Integer" resultType="dto.ClassTypeSon">
+        select id,name,p_id from class_type_son where id = #{id}
+    </select>
+
 </mapper>

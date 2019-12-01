@@ -13,4 +13,8 @@
         insert into class_type (name) VALUES (#{name})
     </insert>
 
+    <select id="getById" parameterType="java.lang.Integer" resultType="dto.ClassType">
+        select id,name from class_type WHERE id = #{id}
+    </select>
+
 </mapper>

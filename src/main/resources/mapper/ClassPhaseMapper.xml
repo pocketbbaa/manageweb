@@ -17,4 +17,8 @@
         delete from class_phase where id = #{id}
     </delete>
 
+    <select id="getById" parameterType="java.lang.Integer" resultType="dto.ClassPhase">
+        select id,name,p_id from class_phase where id = #{id}
+    </select>
+
 </mapper>

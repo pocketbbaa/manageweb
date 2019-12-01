@@ -11,4 +11,6 @@ public interface ClassTypeSonDao {
     List<ClassTypeSon> getListByPid(@Param("pId") Integer pId);
 
     void add(ClassTypeSon classTypeSon);
+
+    ClassTypeSon getById(@Param("id") Integer id);
 }

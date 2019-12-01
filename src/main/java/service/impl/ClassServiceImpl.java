@@ -97,4 +97,19 @@ public class ClassServiceImpl implements ClassService {
 
         return classPackageDao.getById(id);
     }
+
+    @Override
+    public ClassPhase getClassPhaseById(Integer id) {
+        return classPhaseDao.getById(id);
+    }
+
+    @Override
+    public ClassTypeSon getClassTypeSonById(Integer id) {
+        return classTypeSonDao.getById(id);
+    }
+
+    @Override
+    public ClassType getClassTypeById(Integer id) {
+        return classTypeDao.getById(id);
+    }
 }
