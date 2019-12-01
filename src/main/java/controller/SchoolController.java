@@ -1,6 +1,7 @@
 package controller;
 
 import com.alibaba.fastjson.JSONObject;
+import dto.ClassType;
 import dto.SchoolDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,8 +9,11 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
+import service.ClassService;
 import service.SchoolService;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @Controller
@@ -18,6 +22,9 @@ public class SchoolController {
     @Autowired
     private SchoolService schoolService;
 
+    @Autowired
+    private ClassService classService;
+
     /**
      * 机构首页
      *
@@ -25,18 +32,20 @@ public class SchoolController {
      * @return
      */
     @RequestMapping(value = "/school/ogManage")
-    public String ogManage(ModelMap map) {
+    public String ogManage(ModelMap map, HttpServletRequest request) {
         System.out.println("in school/ogManage ...");
         List<SchoolDTO> schoolList = schoolService.getList();
+        buildHeader(map, request);
         map.addAttribute("schoolList", schoolList);
         System.out.println("schoolList：" + JSONObject.toJSONString(schoolList));
         return "og_manage";
     }
 
     @RequestMapping(value = "/school/list")
-    public ModelAndView index(ModelMap map) {
+    public ModelAndView index(ModelMap map, HttpServletRequest request) {
         System.out.println("in school/list ...");
         List<SchoolDTO> schoolList = schoolService.getList();
+        buildHeader(map, request);
         map.put("schoolList", schoolList);
         return new ModelAndView("og_manage", map);
     }
@@ -73,5 +82,15 @@ public class SchoolController {
         System.out.println("in school/delete ...id:" + id);
         schoolService.deleteById(id);
         return new ModelAndView("redirect:/school/ogManage");
+    }
+
+    private void buildHeader(ModelMap map, HttpServletRequest request) {
+        //学校信息
+        HttpSession session = request.getSession();
+        SchoolDTO schoolDTO = (SchoolDTO) session.getAttribute("school");
+        //课程信息
+        List<ClassType> classTypeList = classService.getClassType();
+        map.addAttribute("classTypeList", classTypeList);
+        map.addAttribute("school", schoolDTO);
     }
 }

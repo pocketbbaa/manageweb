@@ -82,7 +82,7 @@
 
                         <div class="content">
                             <h3>${classPackage.name}</h3>
-                            <c:forEach var="i" begin="1" end='14'>
+                            <c:forEach var="i" begin="1" end='13'>
                                 <p><img style="width: 100%;height: 50%"
                                         src="${ctx}/class/${classPackage.name}/教程/幻灯片${i}.png"/></p>
                                 <p style="height: 50px;"></p>
@@ -114,11 +114,9 @@
 
                         <div class="content">
                             <h3>${classPackage.name}</h3>
-                            <c:forEach var="i" begin="1" end="14">
-                                <p><img style="width: 100%;height: 50%"
-                                        src="${ctx}/class/${classPackage.name}/教参/幻灯片${i}.png"/></p>
-                                <p style="height: 50px;"></p>
-                            </c:forEach>
+                            <p><img style="width: 100%;height: 50%"
+                                    src="${ctx}/class/${classPackage.name}/教参/1.png"/></p>
+                            <p style="height: 50px;"></p>
                         </div>
                     </div>
 

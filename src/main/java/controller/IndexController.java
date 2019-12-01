@@ -72,9 +72,10 @@ public class IndexController {
 
 
     @RequestMapping(value = "/classInfo/{id}")
-    public ModelAndView classInfo(ModelMap map, @PathVariable("id") Integer id) {
+    public ModelAndView classInfo(ModelMap map, @PathVariable("id") Integer id, HttpServletRequest request) {
         System.out.println("in classInfo  ...id:" + id);
         ClassPackage classPackage = classService.getClassPackageById(id);
+        buildHeader(map, request);
         map.addAttribute("classPackage", classPackage);
         return new ModelAndView("class_info", map);
     }
